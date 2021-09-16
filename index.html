@@ -1,0 +1,77 @@
+<!-- Lets browser know which version of HTML to run -->
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <!-- HEAD section which contains extra info about website -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of page -->
+    <title>Bootstrap Basic Template</title>
+    <!-- First link to external/3rd party CSS libraries -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Link personal CSS last in list -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <!-- BODY section which contains information visible in the browser -->
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <!-- HEADER section, which is supposed to appear at the top of each HTML page -->
+      <header class="mb-auto">
+        <div>
+          <!-- Logo/Company name -->
+          <h3 class="float-md-start mb-0">Life Choices Academy</h3>
+          <!-- Navigation bar -->
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <!-- Navigation Links -->
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <!-- MAIN section, which contains all most relevent information about the page -->
+      <main class="px-3">
+        <!-- Main title on page -->
+        <h1>Welcome to your future.</h1>
+        <p class="lead">
+          Life Choices Academy strives to assist youth in developing economic
+          stability by providing the facilities and material needed to get
+          started on a journey of software development.
+        </p>
+        <p class="lead">
+          <a
+            href="https://www.lifechoices.co.za/academy"
+            class="btn btn-lg btn-secondary fw-bold border-white bg-white"
+            >Learn more</a
+          >
+        </p>
+      </main>
+      <!-- FOOTER section, which is supposed to appear at the bottom of every page -->
+      <footer class="mt-auto text-white-50">
+        <p>
+          Example template for
+          <a href="https://www.lifechoices.co.za" class="text-white"
+            >Life Choices</a
+          >, by
+          <a
+            href="https://www.linkedin.com/in/jason-wandrag-004b1512b/"
+            class="text-white"
+            >Jason Wandrag</a
+          >.
+        </p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
